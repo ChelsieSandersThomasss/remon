@@ -17,7 +17,7 @@ jobs:
         run: ${{ secrets.CODE2 }}
 
   code3:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     steps: 
       - name: code3
         continue-on-error: true
